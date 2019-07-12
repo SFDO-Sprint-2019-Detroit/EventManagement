@@ -17,7 +17,7 @@
         <externalId>false</externalId>
         <label>County</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
+
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -55,7 +55,7 @@
         <externalId>false</externalId>
         <label>Description_Long</label>
         <length>25000</length>
-        <trackFeedHistory>false</trackFeedHistory>
+
         <type>LongTextArea</type>
         <visibleLines>5</visibleLines>
     </fields>
@@ -72,8 +72,7 @@
         <label>Event Cost</label>
         <precision>11</precision>
         <required>false</required>
-        <scale>2</scale>
-        <trackFeedHistory>false</trackFeedHistory>
+        <scale>2</scale> 
         <type>Currency</type>
     </fields>
     <fields>
@@ -90,7 +89,7 @@
         <precision>12</precision>
         <required>false</required>
         <scale>2</scale>
-        <trackFeedHistory>false</trackFeedHistory>
+
         <type>Number</type>
         <unique>false</unique>
     </fields>
@@ -121,7 +120,7 @@
         <precision>12</precision>
         <required>false</required>
         <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
+
         <type>Number</type>
         <unique>false</unique>
     </fields>
@@ -143,7 +142,38 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Waiver_Required</label>
-        <trackFeedHistory>false</trackFeedHistory>
+
         <type>Checkbox</type>
     </fields>
+    <webLinks>
+        <fullName>Add_to_Pardot_List</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Add to Pardot List</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>https://pi.pardot.com/list/pullCrmCampaign/fid/{!Campaign.Id}/campaignName/ {!URLENCODE(Campaign.Name)}/leadCount/{!Campaign.NumberOfLeads} /contactCount/{!Campaign.NumberOfContacts}?sessionid={!$Api.Session_ID}&amp;serverurl={!$Api.Partner_Server_URL_90}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>CampaignMembers_marcus</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View All Campaign Members</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00O?rt=5&amp;retURL=%2F00O%2Fo&amp;break0=CAN&amp;paramform=yes&amp;c=CAN&amp;c=MEMBER_STATUS&amp;c=FIRST_NAME&amp;c=LAST_NAME&amp;c=TITLE&amp;c=COMPANY&amp;c=BILLINGCITY&amp;c=PHONE&amp;c=EMAIL&amp;details=yes&amp;format=t&amp;scopeid={!Campaign.Name}&amp;scopeid_lkid={!Campaign.Id}</url>
+    </webLinks>
 </CustomObject>

@@ -28,16 +28,26 @@
         <members>Campaign.Seats_Available__c</members>
         <members>Campaign.Slots_remaining__c</members>
         <members>Campaign.Waiver_Required__c</members>
+        <members>Opportunity.Guests__c</members>
+        <members>Opportunity.Hours_Actual__c</members>
+        <members>Opportunity.In_Kind_Amount__c</members>
+        <members>Opportunity.Tickets__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>Campaign-Campaign Layout</members>
+        <members>Campaign-Public Outing Layout</members>
         <name>Layout</name>
     </types>
     <types>
         <members>Button_Background</members>
         <members>EventsStyle</members>
         <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Campaign.Add_to_Pardot_List</members>
+        <members>Campaign.CampaignMembers_marcus</members>
+        <name>WebLink</name>
     </types>
     <version>45.0</version>
 </Package>

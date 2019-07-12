@@ -272,6 +272,8 @@ public class EventController {
             WHERE Event_Date_Time__c >= :da[0] AND Event_Date_Time__c <= :da[1] AND Display_on_Website__c = TRUE
             ORDER BY Event_Date_Time__c ASC
         ];
+        System.debug('Campaign Events: ' + evs.size());
+        System.debug(evs);
         System.debug('SELECT Id, Name, Event_Date_Time__c, Event_End_Time__c, Slots_remaining__c, /*RecordType.Name*/'+
             'FROM Campaign WHERE Event_Date_Time__c >= '+da[0]+' AND Event_Date_Time__c <= '+da[1]+' AND Display_on_Website__c = TRUE'+
             'ORDER BY Event_Date_Time__c ASC');

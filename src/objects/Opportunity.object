@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Guests__c</fullName>
+        <description>Guests for paid event</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Guests for paid event</inlineHelpText>
+        <label>Guests</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hours_Actual__c</fullName>
+        <description>How many hours did the volunteer actually spend? (It&apos;s best to fill this in after talking with the volunteer.)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How many hours did the volunteer actually spend? (It&apos;s best to fill this in after talking with the volunteer.)</inlineHelpText>
+        <label>Hours Actual</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>In_Kind_Amount__c</fullName>
+        <description>Amount of value of in-kind donation.</description>
+        <externalId>false</externalId>
+        <label>In-Kind Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Tickets__c</fullName>
+        <externalId>false</externalId>
+        <label>#_Tickets</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

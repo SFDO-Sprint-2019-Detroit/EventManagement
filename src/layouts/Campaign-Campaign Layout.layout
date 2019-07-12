@@ -152,19 +152,6 @@
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
-    <layoutSections>
-        <customLabel>false</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>false</editHeading>
-        <layoutColumns>
-            <layoutItems>
-                <customLink>ViewCampaignInfluenceReport</customLink>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns/>
-        <layoutColumns/>
-        <style>CustomLinks</style>
-    </layoutSections>
     <relatedContent>
         <relatedContentItems>
             <layoutItem>

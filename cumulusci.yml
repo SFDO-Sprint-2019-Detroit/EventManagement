@@ -4,7 +4,6 @@ project:
     package:
         name:  Event Management Package
         api_version: '45.0'
-    source_format: sfdx
 
 tasks:
     robot:

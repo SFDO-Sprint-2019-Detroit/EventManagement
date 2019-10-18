@@ -38,13 +38,14 @@ While our current goals include just gelling on a best-fit schema and common fie
 * Group Chat room for project (active during sprints/meetings): https://kellpartners.quip.com/Puh2Ai2akiYx
 * Current ERD: 
 
-### Project Team Accomplishments
-* Prolems solved or addressed during Philadelphia 2019 Sprint (Oct 17-18):
-** Do we use Campaigns/Members or a Custom Object for the events themselves (See DECISION1 - CAMPAIGNS OR CUSTOM)
-** What is the appropriate relationship of participants in events to events and amongst themselves (See DECISION2 - PARTICIPANT ARCHITECTURE)
+### Project Team Accomplishments during Philadelphia 2019 Sprint (Oct 17-18)
+* Do we use Campaigns/Members or a Custom Object for the events themselves (See DECISION1 - CAMPAIGNS OR CUSTOM)
+* What is the appropriate relationship of participants in events to events and amongst themselves (See DECISION2 - PARTICIPANT ARCHITECTURE)
 
-### Future Contributions (AKA what were you unable to finish at the Sprint)
-Often, it takes multiple Sprints to contribute an idea back into the Community. What happens at a Sprint does not stay at a Sprint! If someone were to contribute to this project at the next Sprint what would you want them to work on to move this project forward?<br><br>
-* What is your project's Roadmap?
-
-**Important**: If you have specific asks to help move this project forward we would recommend that you list them here, but also create separate Issues for each and add the label of "help wanted". This is a well-worn best practice for projects living in GitHub.
+### Future Contributions (Items we did not complete during the Sprint, but are roadmapping)
+* Build suggested architecture as a deployment-ready package (including making field-level decisions about what is needed in the architecture)
+* Create data set to help users leverage NPSP Data Import Batch features to perform ETL operations related to this architecture
+* Create basic UI improvements and automations for common actions users will make related to events:
+** UI Improvement/Action 1
+** UI Improvement/Action 2
+** UI Improvement/Action 3

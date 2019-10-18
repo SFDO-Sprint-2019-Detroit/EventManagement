@@ -13,6 +13,7 @@ Donna Whitig
 Alison Zwecker
 Esteban Dozsa
 Sara Monostra
+Justin Gilmore
 
 
 ### Project Vision (Your first task as a team)
@@ -36,7 +37,7 @@ While our current goals include just gelling on a best-fit schema and common fie
 
 ### Project Resources
 * Group Chat room for project (active during sprints/meetings): https://kellpartners.quip.com/Puh2Ai2akiYx
-* Current ERD: 
+* Entity Relationship Diagrams (ERD): https://www.lucidchart.com/invitations/accept/22d990f7-58d2-4d90-9de7-d8291c186983
 
 ### Project Team Accomplishments during Philadelphia 2019 Sprint (Oct 17-18)
 * Do we use Campaigns/Members or a Custom Object for the events themselves (See Documentation/Decisions/DECISION1)

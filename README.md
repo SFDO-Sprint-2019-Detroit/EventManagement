@@ -39,8 +39,8 @@ While our current goals include just gelling on a best-fit schema and common fie
 * Current ERD: 
 
 ### Project Team Accomplishments during Philadelphia 2019 Sprint (Oct 17-18)
-* Do we use Campaigns/Members or a Custom Object for the events themselves (See DECISION1 - CAMPAIGNS OR CUSTOM)
-* What is the appropriate relationship of participants in events to events and amongst themselves (See DECISION2 - PARTICIPANT ARCHITECTURE)
+* Do we use Campaigns/Members or a Custom Object for the events themselves (See Documentation/Decisions/DECISION1)
+* What is the appropriate relationship of participants in events to events and amongst themselves (See Documentation/Decisions/DECISION2)
 
 ### Future Contributions (Items we did not complete during the Sprint, but are roadmapping)
 * Build suggested architecture as a deployment-ready package (including making field-level decisions about what is needed in the architecture)

@@ -57,8 +57,8 @@ While our current goals include just gelling on a best-fit schema and common fie
 * Proposed field list for core schema: https://kellpartners.quip.com/lSo5AhuzudDu
 
 ### Project Team Accomplishments during Philadelphia 2019 Sprint (Oct 17-18)
-* Do we use Campaigns/Members or a Custom Object for the events themselves (See Documentation/Decisions/DECISION1)
-* What is the appropriate relationship of participants in events to events and amongst themselves (See Documentation/Decisions/DECISION2)
+* Do we use Campaigns/Members or a Custom Object for the events themselves (See [Documentation/Decisions/DECISION1](https://github.com/SFDO-Sprint-2019-Philadelphia/EventManagement/blob/master/Documentation/Decisions/DECISION1%20-%20Campaigns%20or%20Custom))
+* What is the appropriate relationship of participants in events to events and amongst themselves (See [Documentation/Decisions/DECISION2](https://github.com/SFDO-Sprint-2019-Philadelphia/EventManagement/blob/master/Documentation/Decisions/DECISION2%20-%20Participant%20Architecture))
 
 ### Future Contributions (Items we did not complete during the Sprint, but are roadmapping)
 * Build suggested architecture as a deployment-ready package (including making field-level decisions about what is needed in the architecture)

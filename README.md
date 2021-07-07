@@ -25,6 +25,7 @@ We aim to build best-fit Event Management architecture and features within the N
 
 Nonprofits have myriad needs related to Event Management, and continue to reinvent the wheel locally when creating their architecture, often needing to make revisions or complex work-arounds in order to connect to leading event management platforms that connect to Salesforce or which they aim to extract data from.
 
+### Project Audience
 Our product is intended for nonprofit organizations with one-time or templated/recurring events with complexity that includes:
 * Event Seating/Table Seating considerations and capacity per seat type/seat inventory
 * Event role tracking for individuals that are not in the "audience" of the event
@@ -45,6 +46,7 @@ Our product is intended for nonprofit organizations with one-time or templated/r
 * Task management for event management
 * Outbound communications to participants records
 
+### Project Goals
 While our current goals include just gelling on a best-fit schema and common fields, our future goals include: 
 * revision of these objects and architecture to accomodate more common data points or "add-in" objects than anticipated
 * data sets to help users leverage NPSP Data Import Batch architecture/features for loading data into the schema
